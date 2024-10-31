@@ -1,3 +1,3 @@
-Files from my first year attending Thaddeus Stevens 
+Files from my first semester at Thaddeus Stevens 
 
 Some were non-recoverable because of replits storage. 
