@@ -1,3 +1,3 @@
-This will include all recoverable assignments from my year at Thaddeus Stevens
+Files from my first year attending Thaddeus Stevens 
 
-Some were unrecoverable due to Replits storage system. 
+Some were non-recoverable because of replits storage. 
