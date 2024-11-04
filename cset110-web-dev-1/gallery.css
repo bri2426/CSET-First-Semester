@@ -1,0 +1,32 @@
+.body{
+    margin: 0;
+}
+.flex-gal{
+    
+    display:flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+}
+.flex-img{
+    padding: 10px;
+    height: 300px;
+    width: 400px;
+    transition: transform 0.3s;
+}
+.flex-img:hover{
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px){
+    .flex-img{
+        height: 200px;
+        width: 300px;
+    }
+}
+@media (max-width: 480px){
+    .flex-img{
+        height: 150px;
+        width: 200px;
+    }
+}

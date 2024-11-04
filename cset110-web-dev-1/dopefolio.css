@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* cream for text: #F9FAF6, purples from light to dark: #CCD3F1, #8E8CD9, #7B7DCF, #6566be */
+body{
+    font-family: "Lucida Handwriting", cursive;
+    color:#F9FAF6;
+    background-image:url(https://static.vecteezy.com/system/resources/previews/007/957/147/non_2x/1970-trippy-violet-grid-with-daisy-seamless-pattern-groovy-background-in-retro-style-checkered-wallpaper-hippie-aesthetic-vector.jpg);
+}
+p{
+    color: #CCD3F1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #6566be;
+    color: #F9FAF6;
+}
+.nav{
+    display: flex;
+    list-style: none;
+}
+.nav li {
+    padding: 10px;
+    margin: 0 15px;
+}
+.nav li a{
+    text-decoration: none;
+    color: #F9FAF6;
+}
+#bar{
+    display: flex;
+    background: url();
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    color: #F9FAF6;
+}
+.info{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6566be;
+    color:#F9FAF6;
+}
+#about{
+    padding: 15px;
+    background-color: #6566be;
+}
+.about-grid{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.skills{
+    max-width: 300px;
+}
+.about-grid, .skills{
+    flex: 1;
+    margin: 10px;
+}
+.block{
+    overflow: hidden;
+    background-color: #7B7DCF;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+}
+#projects{
+    background-color: #CCD3F1;
+    padding: 15px;
+}
+.p-flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.p-button{
+    background-position: center;
+    text-align: center;
+    background-color: #6566be;
+    color: #F9FAF6;
+    height: 20px;
+    width: 70px;
+}
+#mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#7B7DCF;
+}
+form{
+    width: 90%;
+    max-width: 500px;
+    background: #CCD3F1;
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+input, button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+}
+button{
+    background-color:#6566be;
+    color: #F9FAF6;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #7B7DCF;
+}
+footer{
+    background-color:#6566be;
+    color: #F9FAF6;
+    width: 100%;
+    padding: 20px;
+}
+@media screen and (max-width: 650px){
+    .nav-list{
+        display: none;
+    }
+    .project-item{
+        max-width: 100%;
+    }
+}
+
+

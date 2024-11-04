@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header {
+            font-family: cursive;
+            background: #8f8ff7;
+            padding: 15px;
+            color: white;
+            text-align: left;
+        }
+        main {
+            display: flex;
+            padding: 15px;
+        }
+        .sidebar {
+            font-family: cursive;
+            background: #6d73df;
+            width: 30%;
+            padding: 15px;
+            color: white;
+        }
+        .main-content {
+            color:#20245c;
+            font-family: cursive;
+            width: 70%;
+            padding: 15px;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .card {
+            border: 1px solid #20245c;
+            margin: 10px;
+            width: calc(33% - 20px);
+            background: #9c9ff9;
+            color: white;
+        }
+        .card h3 {
+            padding: 10px;
+        }
+        .card p {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>My Website</h1>
+    </header>
+    <main>
+        <section class="main-content">
+            <h2>This is the main heading.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <section class="cards">
+                <div class="card">
+                    <h3>Card #1</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="card">
+                    <h3>Card #2</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="card">
+                    <h3>Card #3</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="card">
+                    <h3>Card #4</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="card">
+                    <h3>Card #5</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </section>
+        </section>
+        <aside class="sidebar">
+            <p>Have you discovered all of the other excellent content on this website?</p>
+        </aside>
+    </main>
+</body>
+</html>

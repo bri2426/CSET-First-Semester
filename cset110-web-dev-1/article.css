@@ -1,0 +1,50 @@
+body{
+    background-image:url(https://static.vecteezy.com/system/resources/thumbnails/022/466/859/small/black-crumpled-paper-grunge-texture-photo.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-position: center top;
+    padding: 20px;
+}
+.top{
+    float: left;
+}
+.article-pic img{
+    height: 140px;
+    width: 250px; 
+    background: #ccc;
+    display: block;
+}
+.text{
+    float: left;
+    margin-left: 30px;
+    width: 300px;
+}
+.header{
+    color: white;
+    white-space: nowrap;
+}
+.header2{
+    color: white;
+    white-space: nowrap;
+}
+.header, .header2, .head, .head2{
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    font-size: 38px;
+}
+.main-text{
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    width: 300px;
+    display: block;
+    margin-top: 20px;
+}
+.side-text{
+    float:left;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+    width: 300px;
+    display: block;
+    margin-top: 20px;
+}
+
